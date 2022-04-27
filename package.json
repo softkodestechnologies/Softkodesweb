@@ -1,5 +1,6 @@
 {
   "name": "softkode_website",
+  "homepage": "https://softkodesllc.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
