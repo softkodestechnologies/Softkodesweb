@@ -1,0 +1,10 @@
+export { default as CultureSection1 } from "./Section1";
+export { default as CultureSection2 } from "./Section2";
+export { default as CultureSection3 } from "./Section3";
+export { default as CultureSection4 } from "./Section4";
+export { default as CultureSection5 } from "./Section5";
+export { default as CultureSection6 } from "./Section6";
+export { default as CultureSection7 } from "./Section7";
+export { default as CultureSection8 } from "./Section8";
+export { default as HorFooter } from "./HorFooter";
+export { default as SmallCulture } from "./SmallCulture";

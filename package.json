@@ -1,0 +1,31 @@
+{
+  "name": "softkode_website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@n8tb1t/use-scroll-position": "^2.0.3",
+    "@ramonak/react-progress-bar": "^4.4.0",
+    "aos": "^2.3.4",
+    "framer-motion": "^6.2.8",
+    "locomotive-scroll": "^4.1.4",
+    "next": "12.1.0",
+    "pure-react-carousel": "^1.28.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-gsap": "^3.2.1",
+    "react-locomotive-scroll": "^0.2.0",
+    "react-scroll-motion": "^0.2.1",
+    "react-scroll-parallax": "^3.0.3",
+    "react-scrollmagic": "^2.3.0",
+    "sass": "^1.49.8"
+  },
+  "devDependencies": {
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
