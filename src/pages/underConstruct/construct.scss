@@ -1,0 +1,403 @@
+.construct{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    height: 950px;
+
+    .construct-nav{
+        height: 8.75rem;
+        width: 94.5rem;
+
+        .logo{
+            position: relative;
+            display: flex;
+            img{
+                position: absolute;
+                width: 4.726875rem;
+                height: 6.5rem;
+                left: 3.8125rem;
+                top: 2.25rem;
+            }
+            p{
+                position: absolute;
+                left: 8.4825rem;
+                top: 3.218125rem;
+                width: 17.455625rem;
+                height: 4.416875rem;
+                font-size: 1.5rem;
+                line-height: 2.25rem;
+                color: #000000;
+                
+            }
+
+        }
+    }
+
+    .construct-contents{
+        position: relative;
+        bottom: 12.5rem;
+        h2{
+            position: absolute;
+            height: 4.8125rem;
+            width: 12.8125rem;
+            left: 5.0625rem;
+            top: 18.6875rem;
+            font-style: normal;
+            font-size: 3.21216875rem;
+            line-height: 4.8125rem;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        h1{
+            position: absolute;
+            width: 51.375rem;
+            height: 6.625rem;
+            left: 4.5625rem;
+            top: 23.125rem;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 4.4052625rem;
+            line-height: 6.625rem;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #2A97D3;
+        }
+
+        p{
+            position: absolute;
+            width: 48.1875rem;
+            height: 6rem;
+            left: 4.5625rem;
+            top: 30.625rem;
+            font-style: normal;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        .contact-us{
+            position: absolute;
+            width: 8.75rem;
+            height: 2.1875rem;
+            font-size: 1.46841875rem;
+            top: 36.875rem;
+            left: 4.5625rem;
+            font-weight: 400;
+            line-height: 2.1875rem;
+            align-items: center;
+            color: #2A97D3;
+            text-decoration-line: underline;
+            text-transform: capitalize;
+
+        }
+
+        .email-phone{
+            position: absolute;
+            top: 41.25rem;
+            left: 4.5625rem;
+            font-weight: 500;
+            width: 51.761875rem;
+            height: 4.375rem;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.46841875rem;
+            line-height: 2.1875rem;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            color: #000000;
+
+            .phone{
+                margin-top: -1.25rem;
+            }
+
+        }
+
+        .blue-circle{
+            position: absolute;
+            width: 25.4375rem;
+            height: 25.4375rem;
+            top:12.625rem;
+            left: 44.6875rem;
+            background: rgba(42, 151, 211, 0.3);
+            border-radius: 50%;
+        }
+
+        .orange-circle{
+            position: absolute;
+            width: 25.4375rem;
+            height: 25.4375rem;
+            left: -5.1875rem;
+            top: 37rem;
+            background: rgba(251, 195, 38, 0.3);
+            border-radius: 50%;
+        }
+
+        .curve{
+            position: relative;
+            
+            .curve-right1{
+                position: absolute;
+                width: 18.0625rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                left: 73.4375rem;
+
+            }
+
+            .curve-right2{
+                position: absolute;
+                width: 18.0625rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                left: 76.75rem;
+            }
+
+            .curve-right3{
+                position: absolute;
+                width: 18.0625rem;
+                height: 64.4375rem;
+                top: 6.25rem;
+                left: 79.375rem;
+            }
+
+            .curve-right4{
+                position: absolute;
+                width: 18.0625rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                left: 89.65rem;
+            }
+
+            .curve-left1{
+                position: absolute;
+                width: 16.875rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                bottom: -3.12rem;
+                left: 56.25rem;
+            }
+
+            .curve-left2{
+                position: absolute;
+                width: 16.875rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                bottom: -3.12rem;
+                left: 53.125rem;
+            }
+            
+            .curve-left3{
+                position: absolute;
+                width: 16.875rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                bottom: -3.12rem;
+                left: 50rem;
+            }
+
+            .curve-left4{
+                position: absolute;
+                width: 16.875rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                bottom: -3.12rem;
+                left: 46.875rem;
+            }
+
+            .curve-left5{
+                position: absolute;
+                width: 16.875rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                bottom: -3.12rem;
+                left: 43.75rem;
+            }
+
+            .curve-left6{
+                position: absolute;
+                width: 16.875rem;
+                height: 64.4375rem;
+                top: 12.5rem;
+                bottom: -3.12rem;
+                left: 40.625rem;
+            }
+
+            
+        }
+
+        
+
+        
+
+        
+    }
+}
+
+@media only screen and (max-width: 569px){
+    .construct{
+        max-width: 35.5rem;
+        min-height: 100vh;
+        background: #fffbfb;
+        overflow: hidden;
+        .construct-nav{
+            width: 34.375rem;
+
+            .logo{
+                position: relative;
+                img{
+                    position: absolute;
+                    width: 3.75rem;
+                    height: 4.5625rem;
+                    left:1.90625rem;
+
+                }
+                p{
+                    width: 9.11125rem;
+                    font-size: 1.625rem;
+                    left: 6rem;
+                    top: 2rem;
+                }
+            }
+        }
+
+        .construct-contents{
+            position: relative;
+            h2{
+                position: absolute;
+                left: 2.5rem;
+                font-size: 1.90625rem;
+                line-height: 0.75rem;
+                top: 21rem;
+            }
+            h1{
+                position: absolute;
+                left: 2.5rem;
+                //top: 20.625rem;
+                width: 25.6875rem;
+                font-size: 2.1552625rem;
+                line-height: 2.8125rem;
+            }
+
+            p{
+                position: absolute;
+                width: 31.25rem;
+                left: 2.5rem;
+                top: 28.875rem;
+            }
+
+            .contact-us{
+                position: absolute;
+                left: 2.5rem;
+                top: 39.375rem;
+                
+    
+            }
+
+            .email-phone{
+                position: absolute;
+                left: 2.5rem;
+                top: 41.875rem;
+            }
+
+            .blue-circle{
+                position: absolute;
+                width: 22.5rem;
+                height: 22.875rem;
+                top:38.75rem;
+                left: 9.625rem;
+                background: rgba(42, 151, 211, 0.3);
+                border-radius: 50%;
+            }
+
+            .orange-circle{
+                position: absolute;
+                width: 14.3125rem;
+                height: 15.0625rem;
+                left: 17.1875rem;
+                top: 4.75rem;
+                background: rgba(251, 195, 38, 0.3);
+                border-radius: 50%;
+            }
+
+            .curve{
+                position: relative;
+                
+                .curve-right1{
+                    position: absolute;
+                    width: 18.0625rem;
+                    left: 8.125rem;
+    
+                }
+    
+                .curve-right2{
+                    position: absolute;
+                    width: 18.0625rem;
+                    left: 10.625rem;
+                }
+    
+                .curve-right3{
+                    position: absolute;
+                    width: 18.0625rem;
+                    top: 15.625rem;
+                    left: 15.625rem;
+                }
+    
+                .curve-right4{
+                    position: absolute;
+                    width: 18.0625rem;
+                    left: 16.875rem;
+                }
+    
+                .curve-left1{
+                    position: absolute;
+                    width: 16.875rem;
+                    left: 31.25rem;
+                }
+    
+                .curve-left2{
+                    position: absolute;
+                    width: 16.875rem;
+                    left: 28.125rem;
+                    
+                }
+                
+                .curve-left3{
+                    position: absolute;
+                    width: 16.875rem;
+                    left: 25rem;
+                    
+                }
+    
+                .curve-left4{
+                    position: absolute;
+                    width: 16.875rem;
+                    left: 21.875rem;
+                    
+                }
+    
+                .curve-left5{
+                    position: absolute;
+                    width: 16.875rem;
+                    left: 18.75rem;
+                    
+                }
+    
+                .curve-left6{
+                    position: absolute;
+                    width: 16.875rem;
+                    left: 15.652rem;
+                    
+                }
+    
+                
+            }
+        }
+    }
+}
